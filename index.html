@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/logo.png" type="image/png">
+    <title>Kartik Ginwal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header" class="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__brand">Kartik Ginwal.</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="ri-home-line nav__icon"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="ri-user-line nav__icon"></i>
+                            About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="ri-medal-line nav__icon"></i>
+                            Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#service" class="nav__link">
+                            <i class="ri-briefcase-line nav__icon"></i>
+                            Services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="ri-folders-line nav__icon"></i>
+                            Portfolio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="ri-phone-line nav__icon"></i>
+                            Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav__buttons">
+                <span class="theme__toggle">
+                    <i id="theme-toggle" class="ri-moon-line"></i>
+                </span>
+                <span class="nav__toggle">
+                    <i id="nav-toggle" class="ri-menu-4-line"></i>
+                </span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page -->
+    <main class="main">
+        <!-- Home -->
+        <section id="home" class="home">
+            <div class="d-grid home__wrapper container">
+                <div class="home__content">
+                    <h1 class="home__title">
+                        I am <span class="home__name">KARTIK</span><br>
+                    </h1>
+                    <p class="home__description">
+                        One step at a time and I will reach my destination.
+                    </p>
+                    <a href="#contact" class="btn btn--primary">
+                        <i class="ri-mail-line"></i>
+                        Contact Me
+                    </a>
+                    <div class="social">
+                        <span class="social__title">Follow Me</span>
+                        <ul class="social__list">
+                            <li class="social__item">
+                                <a href="https://www.facebook.com/Forneus07" class="social__link">
+                                    <i class="ri-facebook-fill"></i>
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="https://github.com/untuned07" class="social__link">
+                                    <i class="ri-github-line"></i>
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="https://www.linkedin.com/in/kartik-ginwal/" class="social__link">
+                                    <i class="ri-linkedin-line"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <img src="assets/images/me.jpg" alt="Kartik Ginwal" class="home__img">
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="about section">
+            <div class="d-grid about__wrapper container">
+                <div class="about__content">
+                    <span class="section__subtitle">About Me</span>
+                    <h2 class="section__title">Turning Vision into Reality with Code.</h2>
+                    <p class="about__description">
+                        Flexible and resourceful person. Even when things change at the last minute, I'm able to adjust accordingly and meet tight deadlines.
+                    </p>
+                    <p class="about__description">
+                        To secure a position where I can efficiently contribute my skills and abilities to the growth of the organization and build my personal and professional career.
+                    </p>
+                    <a href="javascript:void(0)" class="btn btn--primary"><i class="ri-article-line"></i>Download CV</a>
+                </div>
+                <img src="assets/images/about.png" alt="Kartik Ginwal" class="about__img">
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="skills section section-bg">
+            <div class="section__header container">
+                <span class="section__subtitle">Skills</span>
+                <h2 class="section__title">Some of My Working Tools
+                </h2>
+            </div>
+            <div class="d-grid skills__wrapper container">
+                <div class="skills__content">
+                    <h3 class="skills__title">Programming Languages</h3>
+                    <div class="skills__content-wrapper">
+                        <div class="skills__card">
+                            <div class="skills__img-wrapper">
+                                <img src="assets/images/c.svg" alt="c Logo" class="skills__img">
+                            </div>
+                            <h3 class="skills__name">C</h3>
+                        </div>
+                        <div class="skills__card">
+                            <div class="skills__img-wrapper">
+                                <img src="assets/images/cpp.svg" alt="Cpp Logo" class="skills__img">
+                            </div>
+                            <h3 class="skills__name">C++</h3>
+                        </div>
+                        <div class="skills__card">
+                            <div class="skills__img-wrapper">
+                                <img src="assets/images/java.svg" alt="Java Logo"
+                                    class="skills__img">
+                            </div>
+                            <h3 class="skills__name">Java</h3>
+                        </div>
+                        <div class="skills__card">
+                            <div class="skills__img-wrapper">
+                                <img src="assets/images/python.svg" alt="Python Logo" class="skills__img">
+                            </div>
+                            <h3 class="skills__name">Python</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__content">
+                    <h3 class="skills__title">Web Development</h3>
+                    <div class="skills__content-wrapper">
+                        <div class="skills__card">
+                            <div class="skills__img-wrapper">
+                                <img src="assets/images/html-logo.svg" alt="HTML Logo" class="skills__img">
+                            </div>
+                            <h3 class="skills__name">HTML</h3>
+                        </div>
+                        <div class="skills__card">
+                            <div class="skills__img-wrapper">
+                                <img src="assets/images/css-logo.svg" alt="CSS Logo" class="skills__img">
+                            </div>
+                            <h3 class="skills__name">CSS</h3>
+                        </div>
+                        <div class="skills__card">
+                            <div class="skills__img-wrapper">
+                                <img src="assets/images/javascript-logo.svg" alt="JavaScript Logo" class="skills__img">
+                            </div>
+                            <h3 class="skills__name">JavaScript</h3>
+                        </div>
+                        <div class="skills__card">
+                            <div class="skills__img-wrapper">
+                                <img src="assets/images/nodejs-logo.svg" alt="Node.Js Logo" class="skills__img">
+                            </div>
+                            <h3 class="skills__name">Node.Js</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section id="service" class="service section section-bg">
+            <div class="d-grid service__wrapper container">
+                <div class="service__content">
+                    <span class="section__subtitle">My Services</span>
+                    <h2 class="section__title">What I Provide To My Clients</h2>
+
+                    <p class="service__description">
+                        As a frontend developer, I specialize in creating engaging and intuitive user experiences through responsive web development and meticulous user interface (UI) design. 
+                    </p>
+
+                    <p class="service__description">
+                        I bring websites to life by seamlessly blending functionality and visual appeal. I prioritize cross-browser compatibility, ensuring that websites perform flawlessly across different platforms and browsers. I am committed to making websites accessible to all users, adhering to web accessibility standards to ensure inclusivity and usability for people.
+                    </p>
+
+                    <a href="#contact" class="btn btn--primary">
+                        <i class="ri-chat-3-line"></i>
+                        Let's Talk
+                    </a>
+                </div>
+                <div class="service__info">
+                    <div class="service__card">
+                        <div class="service__icon">
+                            <i class="ri-code-line"></i>
+                        </div>
+                        <div class="service__info-wrapper">
+                            <h3 class="service__info-title">Frontend Development</h3>
+                            <p class="service__description">
+                                "Driving digital innovation through cutting-edge frontend development, delivering engaging and user-centric web solutions."
+                            </p>
+                        </div>
+                    </div>
+                    <div class="service__card">
+                        <div class="service__icon">
+                            <i class="ri-layout-masonry-fill"></i>
+                        </div>
+                        <div class="service__info-wrapper">
+                            <h3 class="service__info-title">UI/UX Design</h3>
+                            <p class="service__description">
+                                "Creating intuitive and visually stunning user interfaces that delight users and elevate the overall user experience."
+                            </p>
+                        </div>
+                    </div>
+                    <div class="service__card">
+                        <div class="service__icon">
+                            <i class="ri-pen-nib-fill"></i>
+                        </div>
+                        <div class="service__info-wrapper">
+                            <h3 class="service__info-title">Graphic Design</h3>
+                            <p class="service__description">
+                                "Designing visual experiences that inspire and engage, seamlessly blending creativity and strategic thinking."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio -->
+        <section id="portfolio" class="portfolio section">
+            <div class="section__header container">
+                <span class="section__subtitle">Portfolio</span>
+                <h2 class="section__title">Featured Projects</h2>
+            </div>
+            <div class="d-grid portfolio__wrapper container">
+                <div class="portfolio__project">
+                    <div class="portfolio__overlay"></div>
+                    <img src="assets/images/chat.png" alt="Website Design" class="portfolio__img">
+                    <div class="portfolio__info">
+                        <div class="portfolio__info-wrapper">
+                            <h3 class="portfolio__title">Rat Chat</h3>
+                            <p class="portfolio__description">
+                                A chat application built using HTML, CSS, JavaScript, php and AJAX. <br> <br>
+                                MySQL database is used for the storing user's information and messages. <br>
+                            </p>
+                        </div>
+                    </div>
+                    <a href="https://github.com/untuned07/RatChat" class="portfolio__link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                </div>
+
+                <div class="portfolio__project">
+                    <div class="portfolio__overlay"></div>
+                    <img src="assets/images/movies.png" alt="Rat's movies" class="portfolio__img">
+                    <div class="portfolio__info">
+                        <div class="portfolio__info-wrapper">
+                            <h3 class="portfolio__title">Rat's Movies</h3>
+                            <p class="portfolio__description">
+                                Movie recommendation app built using HTML, CSS, JavaScript and REST API.
+                                <br><br>
+                                Uses API from "themoviedb.org". Thanks to them for such wonderful API.
+                            </p>
+                        </div>
+                    </div>
+                    <a href="https://github.com/untuned07/RatMovies" class="portfolio__link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                </div>
+
+                <div class="portfolio__project">
+                    <div class="portfolio__overlay"></div>
+                    <img src="assets/images/Music.png" alt="Music App" class="portfolio__img">
+                    <div class="portfolio__info">
+                        <div class="portfolio__info-wrapper">
+                            <h3 class="portfolio__title">Rat's Music</h3>
+                            <p class="portfolio__description">
+                                Online Music Player built using HTML, CSS and JavaScript.
+                                <br><br>
+                                Custom database is created with the help of JavaScript to store the information about the music.
+                            </p>
+                        </div>
+                    </div>
+                    <a href="https://github.com/untuned07/RatsMusic" class="portfolio__link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Internships -->
+        <section class="testimonial section section-bg">
+            <div class="section__header container">
+                <span class="section__subtitle">Internships</span>
+                <h2 class="section__title">Companies I have Worked With</h2>
+            </div>
+            <div class="testimonial__wrapper container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial__card swiper-slide">
+                        <div class="testimonial__card-icon">
+                            <i class="ri-double-quotes-r"></i>
+                        </div>
+                        <div class="testimonial__card-wrapper">
+                            <div class="testimonial__img-wrapper">
+                                <img src="assets/images/oasis.jpg" alt="Oasis Infobyte" class="testimonial__img">
+                            </div>
+                            <div class="testimonial__data">
+                                <h3 class="testimonial__name">Oasis Infobyte</h3>
+                                <p class="testimonial__occupation">October 2022 (1 month)</p>
+                            </div>
+                        </div>
+                        <p class="testimonial__quote">
+                            Worked on frontend development to build UI for various one-page websites. <br>
+                            Worked on improving the user experience.
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <div class="testimonial__card-icon">
+                            <i class="ri-double-quotes-r"></i>
+                        </div>
+                        <div class="testimonial__card-wrapper">
+                            <div class="testimonial__img-wrapper">
+                                <img src="assets/images/cisco.jpg" alt="Cisco - Networking Academy" class="testimonial__img">
+                            </div>
+                            <div class="testimonial__data">
+                                <h3 class="testimonial__name">Cisco - Networking Academy</h3>
+                                <p class="testimonial__occupation">April 2022 - August 2022</p>
+                            </div>
+                        </div>
+                        <p class="testimonial__quote">
+                            Using packet tracer to build model and refine the network structure to defend it from potential threats and vulnurabilities.
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <div class="testimonial__card-icon">
+                            <i class="ri-double-quotes-r"></i>
+                        </div>
+                        <div class="testimonial__card-wrapper">
+                            <div class="testimonial__img-wrapper">
+                                <img src="assets/images/ten.jpg" alt="The Entrepreneurship Network" class="testimonial__img">
+                            </div>
+                            <div class="testimonial__data">
+                                <h3 class="testimonial__name">The Entrepreneurship Network</h3>
+                                <p class="testimonial__occupation">May 2022 - June 2022</p>
+                            </div>
+                        </div>
+                        <p class="testimonial__quote">
+                            In ultricies at purus egestas at donec amet gravida nunc. Mauris pellentesque ipsum proin
+                            placerat aliquam libero arcu.
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="contact section section-bg">
+            <div class="section__header container">
+                <span class="section__subtitle">Let's Talk</span>
+                <h2 class="section__title">Feel Free to Contact</h2>
+            </div>
+            <div class="d-grid contact__wrapper container">
+                <form action="" class="contact__form">
+                    <div class="form__group">
+                        <label for="" class="form__label">Name</label>
+                        <input type="text" class="form__input" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="" class="form__label">Email</label>
+                        <input type="email" class="form__input" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="" class="form__label">Message</label>
+                        <textarea class="form__input form__textarea"
+                            placeholder="Enter your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary">
+                        <i class="ri-send-plane-line"></i>Send Message
+                    </button>
+                </form>
+                <div class="d-grid contact__content">
+                    <div class="contact__info">
+                        <div class="contact__icon">
+                            <i class="ri-phone-line"></i>
+                        </div>
+                        <div class="contact__info-wrapper">
+                            <h3 class="contact__title">Call:</h3>
+                            <p class="contact__description">(+91) 9548 257 313</p>
+                        </div>
+                    </div>
+
+                    <div class="contact__info">
+                        <div class="contact__icon">
+                            <i class="ri-mail-line"></i>
+                        </div>
+                        <div class="contact__info-wrapper">
+                            <h3 class="contact__title">Email:</h3>
+                            <p class="contact__description">kartikginwal07@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact__info">
+                        <div class="contact__icon">
+                            <i class="ri-map-pin-line"></i>
+                        </div>
+                        <div class="contact__info-wrapper">
+                            <h3 class="contact__title">Location:</h3>
+                            <p class="contact__description">
+                                Gehna, Mukteshwar, <br>
+                                Nainital, Uttarakhand <br>
+                                India (263132)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="d-grid footer__wrapper container">
+            <div class="footer__content">
+                <h4 class="footer__name">KARTIK GINWAL</h4>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#home" class="footer__link">Home</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#about" class="footer__link">About</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#skills" class="footer__link">Skills</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#service" class="footer__link">Services</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#contact" class="footer__link">Contact</a>
+                    </li>
+                </ul>
+                <ul class="social__list">
+                    <li class="social__item">
+                        <a href="javascript:void(0)" class="social__link">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="javascript:void(0)" class="social__link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="javascript:void(0)" class="social__link">
+                            <i class="ri-linkedin-line"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__copyright container">
+            <p>Let's get in touch ;)</p>
+        </div>
+    </footer>
+    <a href="#" id="scrolltop" class="scrolltop">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!-- Scripts here -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

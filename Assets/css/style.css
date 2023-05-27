@@ -134,7 +134,7 @@ body {
 .dark-theme .skills__card,
 .dark-theme .service__card,
 .dark-theme .blog__post,
-.dark-theme .testimonial__card,
+.dark-theme .internship__card,
 .dark-theme .form__input {
   background-color: var(--color-secondary);
   box-shadow: none;
@@ -608,8 +608,46 @@ body {
   right: 2rem;
 }
 
-/* TESTIMONIALS */
-.testimonial__card {
+/* Education */
+.timeline{
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.timeline .elements{
+  width: 70%;
+  height: auto;
+  position: relative;
+}
+
+.elements ul{
+  list-style: none;
+}
+
+.elements ul li{
+  width: 50%;
+  height: auto;
+  padding: 15px 20px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  box-shadow: 1px 1px 25px;
+  border-radius: 10px;
+}
+
+.elements ul li:nth-child(odd){
+  float: left;
+  clear: right;
+}
+
+.elements ul li:nth-child(even){
+  float: right;
+  clear: left;
+}
+
+/* internshipS */
+.internship__card {
   background-color: var(--color-white);
   box-shadow: var(--shadow-primary);
   width: 100%;
@@ -620,7 +658,7 @@ body {
   position: relative;
 }
 
-.testimonial__card-icon {
+.internship__card-icon {
   position: absolute;
   font-size: 5rem;
   color: var(--color-primary-lighten);
@@ -628,14 +666,14 @@ body {
   right: 2rem;
 }
 
-.testimonial__card-wrapper {
+.internship__card-wrapper {
   display: flex;
   align-items: center;
   gap: 2rem;
   margin-bottom: 2rem;
 }
 
-.testimonial__img-wrapper {
+.internship__img-wrapper {
   width: 7rem;
   height: 7rem;
   border-radius: 50%;
@@ -645,39 +683,39 @@ body {
   align-items: center;
 }
 
-.testimonial__img {
+.internship__img {
   width: 6rem;
   height: 6rem;
   border-radius: 50%;
 }
 
-.testimonial__name {
+.internship__name {
   font-size: var(--fs-md);
   font-weight: var(--fw-medium);
   margin-bottom: 0.5rem;
 }
 
-.testimonial__occupation {
+.internship__occupation {
   font-size: var(--fs-sm);
 }
 
 /* SWIPER (3 DOTS) */
-.testimonial__wrapper .swiper-wrapper {
+.internship__wrapper .swiper-wrapper {
   padding-bottom: 5rem;
 }
 
-.testimonial__wrapper .swiper-pagination-bullets {
+.internship__wrapper .swiper-pagination-bullets {
   justify-content: space-around;
 }
 
-.testimonial__wrapper .swiper-pagination-bullet {
+.internship__wrapper .swiper-pagination-bullet {
   background-color: var(--color-gray);
   border-radius: 50%;
   width: 0.8rem;
   height: 0.8rem;
 }
 
-.testimonial__wrapper .swiper-pagination-bullet-active {
+.internship__wrapper .swiper-pagination-bullet-active {
   background-color: var(--color-primary);
 }
 

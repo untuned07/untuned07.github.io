@@ -72,9 +72,9 @@ window.addEventListener("scroll", () => {
   }
 });
 
-// Testimonial Swiper
+// internship Swiper
 
-const TestimonialSwiper = new Swiper(".testimonial__wrapper", {
+const internshipSwiper = new Swiper(".internship__wrapper", {
   spaceBetween: 40,
   loop: true,
   grabCursor: true,
@@ -157,7 +157,7 @@ sr.reveal(".home__img, .about__content, .service__info, .contact__form", {
 });
 
 sr.reveal(
-  ".skills__wrapper, .counter__wrapper, .portfolio__wrapper, .testimonial__wrapper, .blog__wrapper, .footer__content",
+  ".skills__wrapper, .counter__wrapper, .portfolio__wrapper, .internship__wrapper, .blog__wrapper, .footer__content",
   {
     origin: "bottom",
   }

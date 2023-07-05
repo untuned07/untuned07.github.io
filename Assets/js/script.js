@@ -59,21 +59,7 @@ function startCounter(counter) {
   }, 2000 / targetNumber);
 }
 
-const counterSection = document.querySelector(".counter");
-const counters = document.querySelectorAll(".counter__number");
-let started = false;
-
-window.addEventListener("scroll", () => {
-  if (window.scrollY >= counterSection.offsetTop - 400) {
-    if (!started) {
-      counters.forEach((counter) => startCounter(counter));
-    }
-    started = true;
-  }
-});
-
 // internship Swiper
-
 const internshipSwiper = new Swiper(".internship__wrapper", {
   spaceBetween: 40,
   loop: true,
@@ -140,7 +126,6 @@ themeToggle.addEventListener("click", () => {
 });
 
 // ScrollReveal Animations
-
 const sr = ScrollReveal({
   origin: "top",
   distance: "100px",

@@ -115,10 +115,12 @@
                     <span class="section__subtitle">About Me</span>
                     <h2 class="section__title">Turning Vision into Reality with Code.</h2>
                     <p class="about__description">
-                        Flexible and resourceful person. Even when things change at the last minute, I'm able to adjust accordingly and meet tight deadlines.
+                        Flexible and resourceful person. Even when things change at the last minute, I'm able to adjust
+                        accordingly and meet tight deadlines.
                     </p>
                     <p class="about__description">
-                        To secure a position where I can efficiently contribute my skills and abilities to the growth of the organization and build my personal and professional career.
+                        To secure a position where I can efficiently contribute my skills and abilities to the growth of
+                        the organization and build my personal and professional career.
                     </p>
                     <a href="https://drive.google.com/uc?export=download&id=1SyGQju1yuLGDYIORoJ_0qzh_5jSFGmOj"
                         target="_blank" class="btn btn--primary"><i class="ri-article-line"></i>Download Resume</a>
@@ -204,11 +206,15 @@
                     <h2 class="section__title">What I Provide To My Clients</h2>
 
                     <p class="service__description">
-                        As a frontend developer, I specialize in creating engaging and intuitive user experiences through responsive web development and meticulous user interface (UI) design.
+                        As a frontend developer, I specialize in creating engaging and intuitive user experiences
+                        through responsive web development and meticulous user interface (UI) design.
                     </p>
 
                     <p class="service__description">
-                        I bring websites to life by seamlessly blending functionality and visual appeal. I prioritize cross-browser compatibility, ensuring that websites perform flawlessly across different platforms and browsers. I am committed to making websites accessible to all users, adhering to web accessibility standards to ensure inclusivity and usability for people.
+                        I bring websites to life by seamlessly blending functionality and visual appeal. I prioritize
+                        cross-browser compatibility, ensuring that websites perform flawlessly across different
+                        platforms and browsers. I am committed to making websites accessible to all users, adhering to
+                        web accessibility standards to ensure inclusivity and usability for people.
                     </p>
 
                     <a href="#contact" class="btn btn--primary">
@@ -224,7 +230,8 @@
                         <div class="service__info-wrapper">
                             <h3 class="service__info-title">Frontend Development</h3>
                             <p class="service__description">
-                                "Driving digital innovation through cutting-edge frontend development, delivering engaging and user-centric web solutions."
+                                "Driving digital innovation through cutting-edge frontend development, delivering
+                                engaging and user-centric web solutions."
                             </p>
                         </div>
                     </div>
@@ -235,7 +242,8 @@
                         <div class="service__info-wrapper">
                             <h3 class="service__info-title">UI/UX Design</h3>
                             <p class="service__description">
-                                "Creating intuitive and visually stunning user interfaces that delight users and elevate the overall user experience."
+                                "Creating intuitive and visually stunning user interfaces that delight users and elevate
+                                the overall user experience."
                             </p>
                         </div>
                     </div>
@@ -246,7 +254,8 @@
                         <div class="service__info-wrapper">
                             <h3 class="service__info-title">Graphic Design</h3>
                             <p class="service__description">
-                                "Designing visual experiences that inspire and engage, seamlessly blending creativity and strategic thinking."
+                                "Designing visual experiences that inspire and engage, seamlessly blending creativity
+                                and strategic thinking."
                             </p>
                         </div>
                     </div>
@@ -305,7 +314,8 @@
                             <p class="portfolio__description">
                                 Online Music Player built using HTML, CSS and JavaScript.
                                 <br><br>
-                                Custom database is created with the help of JavaScript to store the information about the music.
+                                Custom database is created with the help of JavaScript to store the information about
+                                the music.
                             </p>
                         </div>
                     </div>
@@ -314,10 +324,10 @@
                     </a>
                 </div>
             </div>
-        </section>
-
+        <!-- <section> -->
+            <div class="emptyspace"></div>
         <!-- Internships -->
-        <section class="internship section section-bg">
+<!--         <section class="internship section section-bg"> -->
             <div class="section__header container">
                 <span class="section__subtitle">Internships</span>
                 <h2 class="section__title">Companies I have Worked With</h2>
@@ -358,7 +368,8 @@
                             </div>
                         </div>
                         <p class="internship__quote">
-                            Using packet tracer to build model and refine the network structure to defend it from potential threats and vulnurabilities.
+                            Using packet tracer to build model and refine the network structure to defend it from
+                            potential threats and vulnurabilities.
                         </p>
                     </div>
 
@@ -404,9 +415,10 @@
                     </div>
                     <div class="form__group">
                         <label for="" class="form__label">Message</label>
-                        <textarea id="sndMsg" class="form__input form__textarea" placeholder="Enter your message"></textarea>
+                        <textarea id="sndMsg" class="form__input form__textarea"
+                            placeholder="Enter your message"></textarea>
                     </div>
-                    <button type="submit" class="btn btn--primary">
+                    <button type="submit" class="btn btn--primary" onclick="sendEmail()">
                         <i class="ri-send-plane-line"></i>Send Message
                     </button>
                 </form>
@@ -506,24 +518,7 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="Assets/js/script.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
-        function sendEmail() {
-            var message = "Name: "+ document.getElementById('sndName').value +
-                    "<br>Email: "+ document.getElementById('sndEmail').value +
-                    "<br>Message: "+ document.getElementById('sndMsg').value;
-            Email.send({
-                Host: "smtp.elasticemail.com",
-                Username: "ginwalkartik@gmail.com",
-                Password: "6012BC749DF90E0BA0338CAA9DAEF1CB02BB",
-                To: 'kartikginwal07@gmail.com',
-                From: 'ginwalkartik@gmail.com',
-                Subject: "New Contact Form Enquiry",
-                Body: message
-            }).then(
-                message => alert("Message sent successfully")
-            );
-        }
-    </script>
+
 </body>
 
 </html>

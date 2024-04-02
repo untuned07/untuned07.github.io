@@ -1,3 +1,20 @@
+function sendEmail() {
+  var message = "Name: "+ document.getElementById('sndName').value +
+          "<br>Email: "+ document.getElementById('sndEmail').value +
+          "<br>Message: "+ document.getElementById('sndMsg').value;
+  Email.send({
+      Host: "smtp.elasticemail.com",
+      Username: "ginwalkartik@gmail.com",
+      Password: "6012BC749DF90E0BA0338CAA9DAEF1CB02BB",
+      To: 'kartikginwal07@gmail.com',
+      From: 'ginwalkartik@gmail.com',
+      Subject: "New Contact Form Enquiry",
+      Body: message
+  }).then(
+      message => alert("Message sent successfully")
+  );
+}
+
 const navMenu = document.getElementById("nav-menu"),
   navToggle = document.getElementById("nav-toggle"),
   navLinks = document.querySelectorAll(".nav__link");
